@@ -1,0 +1,110 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffe4e1; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #884ea0; /* Plum color for text */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #e91e63; /* Pink for headings */
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.add-task input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #f48fb1; /* Pink border */
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.add-task button {
+    background-color: #e91e63; /* Pink button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-task button:hover {
+    background-color: #c2185b;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #fce4ec; /* Very light pink for list items */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+#taskList li button {
+    background-color: #f48fb1; /* Pink delete button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#taskList li button:hover {
+    background-color: #e91e63;
+}
+
+.timer {
+    margin-top: 30px;
+}
+
+.timer span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.timer-buttons button {
+    background-color: #a770ef; /* Purple button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.timer-buttons button:hover {
+    background-color: #7952b3;
+}
